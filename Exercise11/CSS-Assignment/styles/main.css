@@ -1,0 +1,65 @@
+body{
+ width: 960px;
+ margin: 0 auto;
+}
+
+header nav{
+  background-color: #aa0000;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+header nav a{
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.floatLeft{
+  float: left;
+  display: inline-block;
+}
+
+.floatRight{
+  float: right;
+  display: inline-block;
+}
+
+.clear, footer{
+  clear: both;
+}
+
+section{
+  width: 66%;
+}
+
+article{
+  height: 255px;
+  display: block;
+}
+
+section article img{
+  float: left;
+}
+
+aside{
+  float: right;
+  width: 33%;
+}
+
+footer{
+   padding: 20px;
+}
+
+footer nav{
+  text-align: right;
+}
